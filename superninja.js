@@ -30,13 +30,14 @@ class Sensei extends Ninja {
 
     //metodos de la clase hijo
     speakWisdom(){
-        super.drinkSake(); // metodo que llama a la clase padre
+        super.drinkSake(); // llama a un metodo de la clase padre 
         console.log("It is health that is real wealth and not pieces of gold and silver")
     }
 
 }
 
 // Salida 
+
 const superSensei = new Sensei("Master Splinter");
 superSensei.speakWisdom(); //llama al metodo drinkSake() aumenta salud en 10 e imprime un mensaje de sabiduria
 superSensei.showStats(); //metodo que hereda de la clase Ninja
